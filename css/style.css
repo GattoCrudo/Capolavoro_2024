@@ -1,0 +1,73 @@
+body {
+    margin: 0 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.content{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+#persone-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.persona {
+    margin: auto 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3 {
+	margin-top: 4px;
+	margin-bottom: 4px;
+    text-align: center;
+}
+.persona-img {
+    height: 200px;
+}
+.img_div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.x_img {
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    top: 0;    
+    left: auto;
+    right: auto;
+}
+.input {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-elem {
+    font-size: large;
+    margin-top: 10px;
+}
+.domanda {
+    width: 250px;
+    text-align: center;
+}
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.risposta-btn {
+    width: 50px;
+    height: 30px;
+}
+.activated {
+    background-color: green;
+}
